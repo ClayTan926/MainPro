@@ -10,9 +10,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.netted.ba.ct.NetUtil;
+import com.netted.ba.ct.UserApp;
 import com.netted.ba.ctact.CtActEnvHelper;
 
+import com.netted.ba.ctact.CtDataLoader;
+import com.netted.ba.ctact.CtUrlDataLoader;
 import com.ztwifi.wallet.impl.LoginUtil;
+import com.ztwifi.wallet.impl.WifiCallback;
+import com.ztwifi.wallet.impl.ZtWifisLoader;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -32,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private String password;
 
     LoginUtil loginUtil;
-
+    WifiCallback wifiCallBack;
     CtActEnvHelper.OnCtViewUrlExecEvent urlEvt;
 
 
@@ -41,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        CtActEnvHelper.createCtTagUI(MainActivity.this, null, urlEvt);//初始化CT界面，可和获取CT Tag等功能
+        CtActEnvHelper.createCtTagUI(this, null, urlEvt);//初始化CT界面，可和获取CT Tag等功能
         Log.e("MainActivity", "onCreate: ");
         initView();
     }
@@ -68,13 +74,48 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    private void checkWxBindInfo(String code) {
+        // 向后台查询微信绑定的用户信息
+        CtUrlDataLoader ld = new CtUrlDataLoader();
+        ld.init(this, 1);
+        ld.custDataUrl = "/ctwx_access.nx?action=access_token&code="
+                + NetUtil.urlEncode(code);
+        ld.needVerifyCode = true;
+        ld.cacheExpireTm = 0;
+        CtDataLoader.OnCtDataEvent evt = new CtDataLoader.OnCtDataEvent() {
+            @Override
+            public void onDataCanceled() {
+                UserApp.showToast("操作中止");
+            }
+
+            @Override
+            public void onDataError(String msg) {
+                UserApp.showToast("出现错误：" + msg);
+            }
+
+            @Override
+            public void onDataLoaded(CtDataLoader cth) {
+
+            }
+
+            @Override
+            public void afterFetchData() {
+            }
+        };
+        ld.setCtDataEvt(evt);
+        ld.loadingMessage = "正在检查登录信息...";
+        ld.loadData();
+    }
+
     @OnClick({R.id.btn_login})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_login:
                 username = etUserName.getText().toString().trim();
                 password = etPassword.getText().toString().trim();
-                loginUtil.init(username,"","");
+
+                ZtWifisLoader z=new ZtWifisLoader(this,username,"","");
+                z.init(wifiCallBack);
                 Toast.makeText(this, "username:" + username + "password:" + password, Toast.LENGTH_SHORT).show();
                 break;
         }

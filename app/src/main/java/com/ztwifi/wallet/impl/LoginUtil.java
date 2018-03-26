@@ -25,9 +25,8 @@ public class LoginUtil {
     
     //SDK初始化方法
 	public void init(String uId, String nick, String iconurl) {
-    	dbUserInfo=new DbUserInfo(context);
+    	    dbUserInfo=new DbUserInfo(context);
 			isUser=dbUserInfo.booleanInseartInFo(uId);
-
 
     		isLogin=dbUserInfo.booleanLogined(uId);
     		loginInfo=dbUserInfo.getInFo(uId);
