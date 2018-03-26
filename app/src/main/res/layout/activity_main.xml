@@ -38,7 +38,8 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:tag="ztwifi://userStatus?action=login&anpuserName=xxxx&password=xxxx&sign=xxxx"
-        android:text="登陆"/>
+        android:text="登陆"
+        android:tag="cmd://doLogin/"
+        />
 
 </LinearLayout>

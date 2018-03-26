@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     LoginUtil loginUtil;
     WifiCallback wifiCallBack;
+    String sign;
     CtActEnvHelper.OnCtViewUrlExecEvent urlEvt;
 
 
@@ -74,12 +75,11 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    private void checkWxBindInfo(String code) {
-        // 向后台查询微信绑定的用户信息
+    private void checkInfo(String username,String password,String sign) {
+        // 检查登陆信息Login
         CtUrlDataLoader ld = new CtUrlDataLoader();
         ld.init(this, 1);
-        ld.custDataUrl = "/ctwx_access.nx?action=access_token&code="
-                + NetUtil.urlEncode(code);
+        ld.custDataUrl = "ztwifi://userStatus?action=login&userName="+username+"&password="+password+"&sign="+sign;
         ld.needVerifyCode = true;
         ld.cacheExpireTm = 0;
         CtDataLoader.OnCtDataEvent evt = new CtDataLoader.OnCtDataEvent() {
