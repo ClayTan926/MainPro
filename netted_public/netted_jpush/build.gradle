@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+//        release {
+//            minifyEnabled true
+//            proguardFiles 'proguard-project.txt'
+//        }
+    }
+}
+
+dependencies {
+    compile files('libs/jpush-sdk-release1.7.3.jar')
+    compile project(':netted_public:netted_common')
+}

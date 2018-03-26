@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/comm_header_bg" >
+
+        <Button
+            android:id="@+id/initcmd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="cmd://clickview/?id=sort2\n\"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/sort2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="cmd://sort/?list=ORDERLIST&amp;field=STARTDATETIME&amp;order=desc\n\"
+            android:visibility="gone" />
+
+	<include layout="@layout/comm_nav_header_leftlayout" >
+	</include>
+	
+		<RelativeLayout 
+			android:id="@+id/right_layout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="@dimen/comm_header_btn_margin"
+			android:layout_centerVertical="true"
+			android:gravity="center_horizontal" 
+            android:background="@drawable/comm_btn_bg_refresh"
+            android:tag="cmd://refresh/" />
+
+        <TextView
+            android:id="@+id/middle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="我的订单"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_data_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header"
+        android:tag="visible_when=${MAP[ORDERLIST.COUNT]}==0" >
+
+        <ImageView
+            android:id="@+id/noresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/comm_noresult" />
+
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noresult"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="暂无查询数据！"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ct_field_orderlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_data_layout"
+        android:background="#FFFFFF"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/comm_div_line"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="vertical"
+        android:fastScrollEnabled="true"
+        android:focusableInTouchMode="true"
+        android:scrollingCache="false" >
+    </ListView>
+
+</RelativeLayout>

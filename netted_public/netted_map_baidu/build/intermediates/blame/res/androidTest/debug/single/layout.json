@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\frg_wxlist_msg.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_fragment\\unspecified\\res\\layout\\frg_wxlist_msg.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_notice_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_notice_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_icon_check_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_icon_check_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_road_map.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\act_road_map.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nearby_mapview.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\nearby_mapview.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_xlistview_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_xlistview_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\poi_popup_taxi.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\poi_popup_taxi.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_ct_treeview_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_ct_treeview_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_nav_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_history_view.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_history_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\ct_loading.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\ct_loading.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_play_vedio.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_play_vedio.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_notice_list.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_notice_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_map_point_select.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\act_map_point_select.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_switch_city_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_switch_city_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_nearby_map.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\act_nearby_map.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_history_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_history_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_oper_guide.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_oper_guide.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\grid_item_menu.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\grid_item_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_welcome.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_nav_header_leftlayout.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header_leftlayout.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_xlistview_footer.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_switch_city.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_switch_city.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_pull_to_refresh_list_head.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_pull_to_refresh_list_head.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\poi_popup.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\poi_popup.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_web_view_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_web_view_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_poi_map.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\act_poi_map.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_show_web_view.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_show_web_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_switchcity_letter_selected.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_switchcity_letter_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_armap.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\layout\\act_armap.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_comm_ct_treeview.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_ct_treeview.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\comm_nav_header_rightlayout_help.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header_rightlayout_help.xml"
+    }
+]

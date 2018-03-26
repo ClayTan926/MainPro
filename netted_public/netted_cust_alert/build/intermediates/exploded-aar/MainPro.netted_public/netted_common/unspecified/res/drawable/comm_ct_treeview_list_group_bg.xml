@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 这里是收缩图标 -->
+    <item android:drawable="@drawable/comm_group_off" android:drawingCacheQuality="auto" android:state_expanded="false"/>
+    <!-- 这里是展开图标 -->
+    <item android:drawable="@drawable/comm_group_on" android:drawingCacheQuality="auto" android:state_expanded="true"/>
+
+</selector>

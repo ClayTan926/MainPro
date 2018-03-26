@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <!-- headerLayout s -->
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/comm_header_bg" >
+
+        <RelativeLayout
+            android:id="@+id/right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/comm_header_btn_margin"
+            android:background="@drawable/comm_btn_bg_refresh"
+            android:gravity="center_horizontal"
+            android:tag="cmd://refresh/" />
+
+        <include layout="@layout/comm_nav_header_leftlayout" >
+        </include>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/middle_title"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/initcmd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:tag="cmd://setshareprefvalue/?idvalue=APP_INFO.NEW_MSG_COUNT.${USERNAME}:0" 
+            />
+    </RelativeLayout>
+    <!-- headerLayout e -->
+
+    <RelativeLayout
+        android:id="@+id/msg_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="#F3F3F3"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/no_data_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:tag="visible_when=${MAP[MSGLIST.ITEMS[1].ID]}==null"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/noresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/comm_noresult" />
+
+            <TextView
+                android:id="@+id/no_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/noresult"
+                android:text="暂无消息"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/ct_field_msglist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/no_data_layout"
+            android:background="@color/white"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/comm_div_line"
+            android:fadingEdge="vertical"
+            android:fastScrollEnabled="true"
+            android:focusableInTouchMode="true"
+            android:scrollingCache="false"
+            android:tag="visible_when=${MAP[MSGLIST.ITEMS[1].ID]}!=null" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

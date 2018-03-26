@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_refresh2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_refresh2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_pic2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_pic2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_cancel2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_cancel2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_ar.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_ar.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\taxi_poi.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\taxi_poi.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_classify.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_classify.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_arrow.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_arrow.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_filter2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_filter2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_img_btn_blue_full.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_img_btn_blue_full.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_add.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_add.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_b.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_b.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_header_icon_switch.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_header_icon_switch.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_loading_pa.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_loading_pa.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_roadb.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_roadb.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\poi_start.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\poi_start.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_alarm2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_alarm2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\outlayericon2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\outlayericon2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\header_back.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\header_back.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_refresh.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_refresh.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_month_pre.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_month_pre.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\tip_pointer_button_selected.9.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\tip_pointer_button_selected.9.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_loading_pb.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_loading_pb.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_headtita.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_headtita.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_finish.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_finish.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_d.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_d.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_alart.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_alart.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_edit_search_bg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_edit_search_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_header_icon_more.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_header_icon_more.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_popup.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_popup.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_help.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_help.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_map_vedio.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_map_vedio.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_month_next.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_month_next.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_headtita2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_headtita2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_ic_pulltorefresh_arrow.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_ic_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_alarm.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_alarm.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_checkbox_a.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_checkbox_a.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_nav_btn_bg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_nav_btn_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_positioning.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_positioning.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_more.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_more.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_map.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_map.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\poi_end.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\poi_end.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_more2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_more2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_img_btn_blue_long.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_img_btn_blue_long.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_header_bg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_header_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_a.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_a.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_e.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_e.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_bg_remind.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_bg_remind.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\map_switch_icon.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\map_switch_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_telb.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_telb.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_back.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_back.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_roada.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_roada.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\taxi_detailbg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\taxi_detailbg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\headtitbg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\headtitbg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_xlistview_arrow.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_xlistview_arrow.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\map.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\map.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_i.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_i.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_div_line.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_div_line.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_map2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_map2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\taxi_img.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\taxi_img.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_layer.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_layer.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_back2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_back2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_h.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_h.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\header_back1.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\header_back1.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_tela.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_tela.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\tip_pointer_button_normal.9.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\tip_pointer_button_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_nav_btn_bg2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_nav_btn_bg2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\outlayericon.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\outlayericon.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_filter.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_filter.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\marker_gpsvalid.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\marker_gpsvalid.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_locate.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_locate.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_j.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_j.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_group_off.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_group_off.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_g.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_g.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_select_spot.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_select_spot.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_arrow_drop.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_arrow_drop.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_pic.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_pic.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_num02.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_num02.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_cancel.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_cancel.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_switch2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_switch2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_nearby2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_nearby2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_f.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_f.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_arrow_small.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_arrow_small.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_switch_city_group_bg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_switch_city_group_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_img_btn_blue_full2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_img_btn_blue_full2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_dian.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_dian.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_switch.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_switch.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_noresult.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_noresult.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_fujin2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_fujin2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\san.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\san.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_station_board.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_station_board.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_fujin.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_fujin.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_header_icon_back.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_header_icon_back.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_add2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_add2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_checkbox_b.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_checkbox_b.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_arrow_right.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_arrow_right.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_finish2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_finish2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_group_on.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_group_on.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\taxi_locatebg.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\taxi_locatebg.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_nearby.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_nearby.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_collection.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_collection.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_hover.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_hover.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\roadcam.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\roadcam.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\comm_icon_help2.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\drawable-hdpi-v4\\comm_icon_help2.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\v2_icon_biaoji_c.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\v2_icon_biaoji_c.png"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_map_share.png",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_map_baidu\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_map_share.png"
+    }
+]

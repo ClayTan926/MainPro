@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_poi_pop_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/layout_poi_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tip_pointer_button"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginBottom="2dp"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/imgbtn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/taxi_img" />
+
+    <ImageView
+        android:id="@+id/img_div1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/taxi_locatebg"/>
+
+    <LinearLayout
+        android:id="@+id/layout_poi_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip">
+
+        <TextView
+            android:id="@+id/tv_poi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Name"
+            android:drawableLeft="@drawable/map"
+            android:textColor="#FF3F00"
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/tv_poi_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#ff000000"
+            android:text=" "
+            android:textSize="15.0sp" 
+        	android:visibility="gone"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_div2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/taxi_locatebg"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/taxi_map_overlay_dial_button"/>
+
+</LinearLayout>
+</LinearLayout>

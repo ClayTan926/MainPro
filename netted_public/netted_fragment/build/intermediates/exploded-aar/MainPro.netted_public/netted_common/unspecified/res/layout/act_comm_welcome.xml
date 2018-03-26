@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgLoadingP0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+        
+        <ImageView
+            android:id="@+id/imgLoadingP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+        <ImageView
+            android:id="@+id/imgLoadingP7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/comm_loading_pp" />
+
+    </LinearLayout>
+    
+    <com.netted.common.welcome.WelcomeGallery
+        android:id="@+id/welcome_img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:spacing="0dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/welcome_progloading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"  />
+
+</RelativeLayout>

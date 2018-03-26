@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MainPro.iml" filepath="$PROJECT_DIR$/MainPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game_app/game_app.iml" filepath="$PROJECT_DIR$/game_app/game_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_account/netted_account.iml" filepath="$PROJECT_DIR$/netted_public/netted_account/netted_account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_app_stat/netted_app_stat.iml" filepath="$PROJECT_DIR$/netted_public/netted_app_stat/netted_app_stat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_common/netted_common.iml" filepath="$PROJECT_DIR$/netted_public/netted_common/netted_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_cust_alert/netted_cust_alert.iml" filepath="$PROJECT_DIR$/netted_public/netted_cust_alert/netted_cust_alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_fragment/netted_fragment.iml" filepath="$PROJECT_DIR$/netted_public/netted_fragment/netted_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_jpush/netted_jpush.iml" filepath="$PROJECT_DIR$/netted_public/netted_jpush/netted_jpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_map_baidu/netted_map_baidu.iml" filepath="$PROJECT_DIR$/netted_public/netted_map_baidu/netted_map_baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netted_public/netted_public.iml" filepath="$PROJECT_DIR$/netted_public/netted_public.iml" />
+    </modules>
+  </component>
+</project>

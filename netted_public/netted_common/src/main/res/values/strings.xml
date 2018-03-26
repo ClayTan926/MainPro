@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 星期 -->
+	<string name="Mon">一</string>
+	<string name="Tue">二</string>
+	<string name="Wed">三</string>
+	<string name="Thu">四</string>
+	<string name="Fri">五</string>
+	<string name="Sat">六</string>
+	<string name="Sun">日</string>
+	
+	<string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    
+    <string name="pull_to_refresh_last_time">上次更新时间：</string>
+    <string name="drag_for_more_drag_tip">上拉查看更多</string>
+    <string name="drag_for_more_release_tip">松开载入更多</string>
+    <string name="drag_for_more_no_more">已经是最后一页了</string>
+</resources>

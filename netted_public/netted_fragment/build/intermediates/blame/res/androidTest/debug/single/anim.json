@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_push_in_senter.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_push_in_senter.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_dialog_enter.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_popup_exit.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_dialog_exit.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_dialog_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_popup_enter.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\comm_push_out_senter.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_fragment\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\anim\\comm_push_out_senter.xml"
+    }
+]

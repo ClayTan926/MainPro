@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="comm_header_btn_margin">15dp</dimen>
+      <dimen name="comm_info_content_margin">10dp</dimen>
+      <dimen name="comm_header_title_margin">55dp</dimen>
+      <dimen name="comm_header_title_height">50dp</dimen>
+      <dimen name="comm_info_content_margin_top">20dp</dimen>
+      <dimen name="comm_info_content_margin_bottom">20dp</dimen>
+     <!-- 切换城市中 字母块的文字大小 -->
+     <dimen name="letter_list_fontsize">14sp</dimen>
+     <!-- 查询日期显示字体 大小-->
+      <dimen name="date_fontsize">18sp</dimen>
+      <!-- 个人资料字体大小 -->
+      <dimen name="user_info_fontsize">16sp</dimen>
+      
+</resources>

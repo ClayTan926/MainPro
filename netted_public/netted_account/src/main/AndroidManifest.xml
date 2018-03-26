@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netted.account">
+    
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    
+    <application>
+        
+        <!-- 我的  帐户 -->
+        
+        <activity android:name="com.netted.account.ChangePasswordActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.AccountActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.FindPasswordActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.RegisterActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.LoginActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.LoginRegActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.MyInfoActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.netted.account.UserAgreementActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+
+        <!-- 更多 -->
+   		<activity android:name="com.netted.account.more.FeedBackActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+   		<activity android:name="com.netted.account.more.CommonMoreActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+        <!-- 收藏 -->
+        <activity android:name="com.netted.account.more.CollectActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+   		
+	</application>
+</manifest>

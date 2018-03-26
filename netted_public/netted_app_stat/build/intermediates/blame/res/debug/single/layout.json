@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_ct_treeview_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_ct_treeview_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_xlistview_footer.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\ct_loading.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\ct_loading.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_history_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_history_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_nav_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_switchcity_letter_selected.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_switchcity_letter_selected.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_show_web_view.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_show_web_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_welcome.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_web_view_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_web_view_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_switch_city.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_switch_city.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_pull_to_refresh_list_head.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_pull_to_refresh_list_head.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_history_view.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_history_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_notice_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_notice_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_oper_guide.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_oper_guide.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_switch_city_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_switch_city_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_xlistview_header.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_xlistview_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_nav_header_rightlayout_help.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header_rightlayout_help.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_icon_check_list_item.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_icon_check_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_play_vedio.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_play_vedio.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_notice_list.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_notice_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\comm_nav_header_leftlayout.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\comm_nav_header_leftlayout.xml"
+    },
+    {
+        "merged": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\res\\merged\\debug\\layout\\act_comm_ct_treeview.xml",
+        "source": "D:\\Android\\MainPro\\MainPro\\netted_public\\netted_app_stat\\build\\intermediates\\exploded-aar\\MainPro.netted_public\\netted_common\\unspecified\\res\\layout\\act_comm_ct_treeview.xml"
+    }
+]

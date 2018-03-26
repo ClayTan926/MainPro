@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comm_btn_cg_white"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" 
+    android:tag="act://cv/?cvId=18370&amp;itemId=1&amp;extraParams=[[addparam=WMCV_ENNAME:airportexpress_orderdetail&amp;addparam=WMCV_TITLE:订单详情&amp;addparam=P_ORDERNO:${MAP[ORDERNO]}]]\n
+	    cmd://watch/?expr=cmd://finish/?${GPARAM[cmd_finish_on_ORDER_CANCEL]}\n\
+		cmd://watch/?expr=cmd://clearhistory/?${GPARAM[cmd_finish_on_ORDER_CANCEL]}\n\
+		cmd://watch/?expr=cmd://refresh/?${GPARAM[cmd_finish_on_ORDER_OK]}\n\
+		cmd://watch/?expr=cmd://refresh/?${GPARAM[cmd_finish_on_ORDER_REFRESH]}">
+
+    <ImageView
+        android:id="@+id/order_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/passtrans_orderlist_item" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/arrow_right"
+        android:layout_toRightOf="@+id/order_logo" >
+
+        <TextView
+            android:id="@+id/startAndEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="${MAP[STARTSTATION]}-${MAP[ENDSTATION]}"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startAndEnd"
+            android:text="出发日期:"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/startDateVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startAndEnd"
+            android:layout_toRightOf="@+id/startDate"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[STARTDATETIME]}"
+            android:tag="date_format=yyyy-MM-dd HH:mm"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:text="订单状态:"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:layout_toRightOf="@+id/orderStatus"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[ORDERSTATUS]}"
+            android:textColor="@color/blue"
+            android:textSize="14sp" 
+            android:tag="visible_when=${MAP[ORDERSTATUS]}==已支付"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:layout_toRightOf="@+id/orderStatus"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[ORDERSTATUS]}"
+            android:textColor="#F37D3E"
+            android:textSize="14sp" 
+            android:tag="visible_when=${MAP[ORDERSTATUS]}==待支付"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:layout_toRightOf="@+id/orderStatus"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[ORDERSTATUS]}"
+            android:textColor="#F37D3E"
+            android:textSize="14sp" 
+            android:tag="visible_when=${MAP[ORDERSTATUS]}==已下单"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:layout_toRightOf="@+id/orderStatus"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[ORDERSTATUS]}"
+            android:textColor="#666666"
+            android:textSize="14sp" 
+            android:tag="visible_when=${MAP[ORDERSTATUS]}==已使用"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startDate"
+            android:layout_toRightOf="@+id/orderStatus"
+            android:layout_marginLeft="5dp"
+            android:text="${MAP[ORDERSTATUS]}"
+            android:textColor="#000000"
+            android:textSize="14sp" 
+            android:tag="visible_when=${MAP[ORDERSTATUS]}!=已支付&amp;&amp;${MAP[ORDERSTATUS]}!=待支付&amp;&amp;${MAP[ORDERSTATUS]}!=已下单&amp;&amp;${MAP[ORDERSTATUS]}!=已使用"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/comm_arrow_right" />
+
+</RelativeLayout>

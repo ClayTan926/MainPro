@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comm_btn_cg_white"
+    android:tag="[CLICKDELAYTIME=0]\n\
+                 cmd://hideview/?id=content&amp;all=1\n\
+     			 cmd://showview/?id=content&amp;value=1\n\
+     			 cmd://hideview/?id=set_up&amp;all=1\n\
+     			 cmd://showview/?id=set_up&amp;value=1\n\
+     			 cmd://showview/?id=set_down&amp;all=1\n\
+     			 cmd://hideview/?id=set_down&amp;value=1\n\
+     			 cmd://setgparamvalue/?idvalue=msg_select_temp_id:${GPARAM[msg_select_id]}\n\
+     			 cmd://setgparamvalue/?idvalue=msg_select_id:${MAP[ID]}\n\
+     			 cmd://hideview/?cv_execwhen=${GPARAM[msg_select_temp_id]}==${GPARAM[msg_select_id]}&amp;id=content&amp;all=1\n\
+     			 cmd://hideview/?cv_execwhen=${GPARAM[msg_select_temp_id]}==${GPARAM[msg_select_id]}&amp;id=set_up&amp;all=1\n\
+     			 cmd://showview/?cv_execwhen=${GPARAM[msg_select_temp_id]}==${GPARAM[msg_select_id]}&amp;id=set_down&amp;all=1\n\
+     			 cmd://setgparamvalue/?cv_execwhen=${GPARAM[msg_select_temp_id]}==${GPARAM[msg_select_id]}&amp;idvalue=msg_select_id:0\n\" >
+
+    <RelativeLayout
+        android:id="@+id/data_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/layout_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:tag="visible_when=${MAP[ID]}!=null" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/avatar"
+                android:tag="visible_when=${MAP[类别]}=订票通知" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/avatar"
+                android:tag="visible_when=${MAP[类别]}!=订票通知" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/img_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/layout_right"
+            android:layout_marginRight="10dp" >
+
+            <ImageView
+                android:id="@+id/set_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/arrow_down" />
+
+            <ImageView
+                android:id="@+id/set_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/arrow_up"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/layout_left" >
+
+            <RelativeLayout
+                android:id="@+id/layout_right_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/time"
+                    android:text="${MAP[标题]}"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:tag="date_format=MM-dd"
+                    android:text="${MAP[发布时间]}"
+                    android:textColor="#0384B3"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_right_top"
+                android:layout_marginRight="10dp"
+                android:text="${MAP[内容]}"
+                android:textColor="#ABABAB"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+//            minifyEnabled true
+//            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/ofus_netted_ba.jar')
+    compile files('libs/ofus_netted_common.jar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

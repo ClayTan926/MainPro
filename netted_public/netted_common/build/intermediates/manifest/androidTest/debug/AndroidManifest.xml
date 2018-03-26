@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netted.common.test" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.netted.common.test"
+        android:targetPackage="com.netted.common.test" />
+    <!-- 申请权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+        <!--
+        欢迎
+        <activity android:name="com.netted.common.welcome.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <!-- CT界面 -->
+        <activity
+            android:name="com.netted.com.ztwifi.wallet.ba.ctact.CtActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netted.com.ztwifi.wallet.ba.ctact.CvActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netted.com.ztwifi.wallet.ba.ctact.CvtActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netted.com.ztwifi.wallet.ba.ctact.CtUrlDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netted.com.ztwifi.wallet.ba.ctact.TraceLogActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- 帮助引导 -->
+        <activity
+            android:name="com.netted.common.welcome.OperGuideActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- common activity注册 -->
+        <activity
+            android:name="com.netted.common.webview.ShowWebView"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- 切换城市 -->
+        <activity
+            android:name="com.netted.common.switchcity.SwitchCityActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- 分组选择 -->
+        <activity
+            android:name="com.netted.common.select.CtListViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- 日历 -->
+        <activity
+            android:name="com.netted.common.calendar.BaseCalendar"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" /> <!-- 播放视频 -->
+        <activity
+            android:name="com.netted.common.video.PlayVideoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

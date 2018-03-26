@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/comm_header_bg" >
+
+        
+	<include layout="@layout/comm_nav_header_leftlayout" >
+	</include>
+
+
+        <TextView
+            android:id="@+id/middle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="个人信息"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+            
+            <RelativeLayout
+                android:id="@+id/left_my_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/left_title_set_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="个人信息"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp" />
+
+                <View
+                    android:id="@+id/left_title_set_v1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@id/left_title_set_tv1"
+                    android:layout_alignRight="@id/left_title_set_tv1"
+                    android:layout_below="@id/left_title_set_tv1"
+                    android:background="#d4d4d4" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/left_title_set_v1"
+                    android:layout_alignLeft="@id/left_title_set_tv1"
+                    android:layout_marginRight="10dp"
+                    android:background="#d4d4d4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/info_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/comm_btn_cg_white" >
+
+                <TextView
+                    android:id="@+id/info_phone_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="手机:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:text="13800138000"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d4d4d4" />
+
+            <RelativeLayout
+                android:id="@+id/info_name"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/comm_btn_cg_white" >
+
+                <TextView
+                    android:id="@+id/info_name_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="用户名:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/info_name_arrow"
+                    android:layout_toRightOf="@+id/info_name_tv1"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:maxLength="10"
+                    android:hint="请输入昵称"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/info_name_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/comm_arrow_right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d4d4d4" />
+
+            <RelativeLayout
+                android:id="@+id/info_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/comm_btn_cg_white" >
+
+                <TextView
+                    android:id="@+id/info_sex_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="性别:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/info_sex_arrow"
+                    android:gravity="right"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/info_sex_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/comm_arrow_right" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d4d4d4" />
+
+            <RelativeLayout
+                android:id="@+id/info_email"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/comm_btn_cg_white" >
+
+                <TextView
+                    android:id="@+id/info_email_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="邮箱:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/info_email_arrow"
+                    android:layout_toRightOf="@+id/info_email_tv1"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="请输入邮箱"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/info_email_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/comm_arrow_right" />
+            </RelativeLayout>
+
+             <RelativeLayout
+                android:id="@+id/left_new_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/left_password_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="修改密码"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp" />
+
+                <View
+                    android:id="@+id/left_password_v1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@+id/left_password_tv1"
+                    android:layout_alignRight="@+id/left_password_tv1"
+                    android:layout_below="@+id/left_password_tv1"
+                    android:background="#d4d4d4" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/left_password_v1"
+                    android:layout_alignLeft="@+id/left_password_v1"
+                    android:layout_marginRight="10dp"
+                    android:background="#d4d4d4" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/info_password"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/comm_btn_cg_white"
+                 >
+
+                <TextView
+                    android:id="@+id/info_password_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="密码:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView 
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/info_password_arrow"
+                    android:text="******"
+                    android:textColor="#000000"
+                    android:textSize="18dp"/>
+
+                <ImageView
+                    android:id="@+id/info_password_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/comm_arrow_right" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/comm_btn_cg_blue"
+                android:text="保存"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+include ':app', ':game_app'
+include ':netted_public:netted_cust_alert'
+include ':netted_public:netted_jpush'
+include ':netted_public:netted_common'
+include ':netted_public:netted_fragment'
+include ':netted_public:netted_app_stat'
+include ':netted_public:netted_map_baidu'
+include ':netted_public:netted_account'
+include ':netted_public'
+project(':netted_public').projectDir = new File('netted_public/')

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/comm_header_bg" >
+
+        <include layout="@layout/comm_nav_header_leftlayout" >
+        </include>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/comm_header_title_margin"
+            android:layout_marginRight="@dimen/comm_header_title_margin" >
+
+            <TextView
+                android:id="@+id/middle_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="选择"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/comm_div_line"
+        android:dividerHeight="0.5dp"
+        android:fastScrollEnabled="true"
+        android:groupIndicator="@drawable/comm_ct_treeview_list_group_bg"
+        android:headerDividersEnabled="false"
+        android:scrollingCache="false" />
+
+</LinearLayout>

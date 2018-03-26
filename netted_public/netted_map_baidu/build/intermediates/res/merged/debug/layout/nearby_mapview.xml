@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.netted.maps.objmap.ObjMapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_positioning"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/layer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_layer"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/armap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_ar"
+            android:visibility="gone" />
+        
+	    <ImageButton
+	        android:id="@+id/road_vedio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+	        android:background="@android:color/transparent"
+	        android:src="@drawable/icon_map_vedio"
+	        android:visibility="gone" />
+	
+	    <ImageButton
+	        android:id="@+id/map_share"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+	        android:background="@android:color/transparent"
+	        android:src="@drawable/icon_map_share"
+	        android:visibility="gone" />
+	        
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_classify"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ZoomControls
+            android:id="@+id/zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="1dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="112dp"
+        android:layout_gravity="bottom" >
+
+        <SlidingDrawer
+            android:id="@+id/slidingdrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:animateOnClick="true"
+            android:content="@+id/content"
+            android:handle="@+id/show_area"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/show_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/outlayericon" />
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <GridView
+                    android:id="@+id/gridview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bg_popup"
+                    android:gravity="center"
+                    android:horizontalSpacing="5dip"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="2dip" />
+            </LinearLayout>
+        </SlidingDrawer>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <drawable name="white_bg">#ffffff</drawable>
+    <drawable name="blue_bg">#ff28A6E8</drawable>
+    <drawable name="calendar_bg">#EDF0F6</drawable>
+    <drawable name="transparent_bg">#00000000</drawable>
+
+    <color name="black_cg">#000000</color>    
+    <color name="white_cg">#ffffff</color>
+    <color name="blue_cg">#28A6E8</color>
+    <color name="transparent_cg">#000000</color>
+    
+    <color name="black">#000000</color>    
+    <color name="white">#ffffff</color>
+    <color name="blue">#28A6E8</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="calendar_title">#EDF0F6</color>
+    <color name="line">#d4d4d4</color>
+    <color name="selection">#b1dce2ff</color>
+    
+    <drawable name="list_bg">#32a8da</drawable>
+    <drawable name="list_item_unselected">#50ffffff</drawable>
+    <drawable name="list_item_selected">#32a8da</drawable>
+    <color name="list_divider">#C0C0C0</color>
+      
+    <color name="calendar_zhe_day">#faedda</color>
+    <color name="noMonth">#c0c0c0</color>
+    <color name="cal_text">#603b07</color>
+    <color name="gray">#8C8C8C</color>
+
+</resources>
