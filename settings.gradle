@@ -1,4 +1,4 @@
-include ':app', ':game_app'
+include ':app'
 include ':netted_public:netted_cust_alert'
 include ':netted_public:netted_jpush'
 include ':netted_public:netted_common'

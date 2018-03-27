@@ -58,7 +58,7 @@ public class DbUserInfo {
 			String d = "";
 			Cursor cursor = db
 					.rawQuery(
-							"select nvl(isLogin,0) as a,expireAt as b from userdata where uid = ? ",
+							"select isLogin as a,expireAt as b from userdata where uid = ? ",
 							new String[] { uId});
 			try {
 				if (null != cursor) {

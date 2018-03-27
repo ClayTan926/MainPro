@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MainPro.iml" filepath="$PROJECT_DIR$/MainPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/game_app/game_app.iml" filepath="$PROJECT_DIR$/game_app/game_app.iml" />
       <module fileurl="file://$PROJECT_DIR$/netted_public/netted_account/netted_account.iml" filepath="$PROJECT_DIR$/netted_public/netted_account/netted_account.iml" />
       <module fileurl="file://$PROJECT_DIR$/netted_public/netted_app_stat/netted_app_stat.iml" filepath="$PROJECT_DIR$/netted_public/netted_app_stat/netted_app_stat.iml" />
       <module fileurl="file://$PROJECT_DIR$/netted_public/netted_common/netted_common.iml" filepath="$PROJECT_DIR$/netted_public/netted_common/netted_common.iml" />

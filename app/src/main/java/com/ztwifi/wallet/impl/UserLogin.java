@@ -1,6 +1,7 @@
 package com.ztwifi.wallet.impl;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.ztwifi.wallet.bean.LoginInfo;
 import com.ztwifi.wallet.dbutil.DbUserInfo;
@@ -39,7 +40,7 @@ public class UserLogin {
         }
 
         token=loginInfo.getToken();
-        //更新用户数据
+        Log.e(TAG, "userLogin: 用户数据更新");
         dbUserInfo.updateInFo(uId, isLogin, token, timeOut, nick, iconurl,0);
 
     }

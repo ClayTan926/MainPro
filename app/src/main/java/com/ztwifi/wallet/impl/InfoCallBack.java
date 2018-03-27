@@ -21,7 +21,7 @@ public class InfoCallBack {
 	}
 
 	//当前登陆用户信息发生变化时通知游戏端
-	public void registerLoginCallback(String uId,LoginUtil loginUtil) {
+	public void registerLoginCallback(String uId) {
 		
 		dbUserInfo=new DbUserInfo(context);
 		

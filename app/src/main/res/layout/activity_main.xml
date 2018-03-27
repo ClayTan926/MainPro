@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.ztwifi.wallet.MainActivity">
+    tools:context="com.ztwifi.wallet.main.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="密码"
-            android:inputType="numberPassword"/>
+            android:inputType="textPassword"/>
     </LinearLayout>
 
     <Button
@@ -41,5 +41,19 @@
         android:text="登陆"
         android:tag="cmd://doLogin/"
         />
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="注销"
+        android:tag="cmd://logout/"
+        />
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
 
 </LinearLayout>

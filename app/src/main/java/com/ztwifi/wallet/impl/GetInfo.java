@@ -26,19 +26,18 @@ public class GetInfo {
 	public LoginInfo getLoginInfo(String uId) {
 		dbUserInfo=new DbUserInfo(context);
 		isUser=dbUserInfo.booleanInseartInFo(uId);
-		
-		if(isUser) {
+
+		loginInfo=null;
 		timeOut=dbUserInfo.booleanLogined(uId);
-			if (""!=timeOut) {
+		if (!"".equals(timeOut)) {
 				Log.d(TAG,"登陆未超时");
 				loginInfo=dbUserInfo.getInFo(uId);
 				return loginInfo;
-			}
 		}
 		
 		Log.d(TAG,"登陆超时");
 		
-		loginInfo=null;
+
 		return loginInfo;
 	}
 

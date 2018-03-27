@@ -51,8 +51,6 @@ public class ZtWifisLoader {
             dbUserInfo.insertInFo(uId, "2", token, timeOut, nick, iconUrl,0);
         }
 
-        wifiCallback.login();
-        wifiCallback.logout();
 
 
      }

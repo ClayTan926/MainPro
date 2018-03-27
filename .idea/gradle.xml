@@ -9,7 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/game_app" />
             <option value="$PROJECT_DIR$/netted_public" />
             <option value="$PROJECT_DIR$/netted_public/netted_account" />
             <option value="$PROJECT_DIR$/netted_public/netted_app_stat" />

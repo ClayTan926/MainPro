@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MainPro</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="SAVE_PATH_IN_SDCARD">/zxwifi/</string>
 </resources>
